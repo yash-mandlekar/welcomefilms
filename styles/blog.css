@@ -1,0 +1,10 @@
+#page1 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+  padding: 2vmax;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1vmax;
+}

@@ -1,0 +1,170 @@
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1513279922550-250c2129b13a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGNvdXBsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+#page1 h1 {
+  font-family: America-com;
+  text-align: center;
+  left: 1%;
+  font-size: 16vmax;
+  bottom: -6%;
+  color: var(--light-text);
+}
+#b {
+  margin-left: 20px;
+}
+#r {
+  margin-left: 40px;
+}
+#top {
+  overflow: hidden;
+  width: 100%;
+  height: 14vmax;
+  /* background-color: red; */
+  position: absolute;
+  align-items: center;
+  bottom: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vmax;
+  justify-content: center;
+  z-index: 2;
+}
+#top h2 {
+  font-family: Ambroise;
+  font-size: 3.5vmax;
+  color: var(--white-text);
+  font-weight: 100;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  letter-spacing: 0.2vh;
+}
+#top p {
+  font-family: America-com;
+  font-size: 1.5vmax;
+  color: var(--white-text);
+  font-weight: 100;
+}
+#page2 {
+  width: 100%;
+  height: 4500px;
+  background-color: var(--light-bg);
+  position: relative;
+  overflow: hidden;
+  padding: 10vmax;
+}
+#page2 p {
+  font-weight: 100;
+  font-family: America-com;
+  color: #a3a3a3;
+  letter-spacing: 0.1vh;
+  text-align: center;
+}
+.img-wrap-one,
+.img-wrap-two,
+.img-wrap-three {
+  margin-top: 2vmax;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmax;
+}
+.img-wrap-one img,
+.img-wrap-two img,
+.img-wrap-three img {
+  object-fit: cover;
+}
+.img-wrap-one img {
+  width: 100%;
+}
+.img-wrap-two img {
+  width: 50%;
+}
+.img-wrap-three img {
+  width: 33%;
+}
+/* -------------------------------------------------------- FOOTER -------------------------------------------------------- */
+.footer-container{
+  background-color: #292929;
+  padding: 1vmax 12vmax 3vmax 12vmax;
+  display: flex;
+  flex-direction: column;
+  gap: 1vmax;
+}
+.img-cnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-cnt img{
+  width: 10vmax;
+}
+.p-cnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: .6vmax;
+  font-family: Bakbak;
+  /* padding: 0 13vmax; */
+  letter-spacing: .5px;
+}
+.contact,.btm{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left,.right{
+  display: flex;
+  flex-direction: column;
+  gap: 1vmax;
+}
+.logo-cnt{
+  display: flex;
+  align-items: center;
+  gap: 1vmax;
+  color: white;
+  font-family: Bakbak;
+  font-size: .9vmax;
+}
+hr{
+  width: 100%;
+  border-radius: 1vmax;
+  border: 1px solid #3d3d3d;
+}
+.copyright{
+  color: rgb(168, 168, 168);
+  font-family: Bakbak;
+  font-size: 1vmax;
+}
+.follow{
+  font-family: Bakbak;
+  font-size: 1vmax;
+  color: rgb(168, 168, 168);
+  letter-spacing: 1px;
+}
+.right2{
+  display: flex;
+  align-items: center;
+  gap: 1vmax;
+}
+.right2 img{
+  height: 1.5vmax;
+}
+
+@media screen and (max-width: 1200px) {
+  #page2{
+    padding: 3vmax;
+    height: 1600px;
+  }
+}

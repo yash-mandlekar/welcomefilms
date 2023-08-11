@@ -1,0 +1,41 @@
+/* ------ America-com ------ */
+@font-face {
+  font-family: America-com;
+  src: url(../Assets/GT-America-Compressed-Regular.woff2);
+}
+/* ------ Ambroise ------ */
+@font-face {
+  font-family: Ambroise;
+  src: url(../Assets/Ambroise\ Regular.otf);
+}
+/* ------ Bakbak ------ */
+@font-face {
+  font-family: Bakbak;
+  src: url(../Assets/BakbakOne-Regular.ttf);
+}
+/* ------ Edusa ------ */
+@font-face {
+  font-family: Edusa;
+  src: url(../Assets/EduSABeginner-VariableFont_wght.ttf);
+}
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+:root {
+  --dark-text: #171411;
+  --light-text: #b9c4cd;
+  --white-text: #ffffff;
+  --dark-bg: #171411;
+  --light-bg: #ffffff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
