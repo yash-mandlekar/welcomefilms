@@ -52,7 +52,7 @@ var tl = gsap.timeline({
 });
 
 tl.to(".svg", {
-  top: "4%",
+  top: "32px",
   pointerEvents: "all",
   scale: 0.8,
   fill: "#111",
